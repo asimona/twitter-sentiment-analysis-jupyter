@@ -9,11 +9,20 @@ This project contains a step by step description of several metods for analysing
 ```bash
 $ pip3 install -r requirements.txt
 ```
-
-3. Start the Jupyter Notebook server from the project root directory with 
+3. Install all nltk packages (open python console, import nltk, and start the downloader)
+```
+$ python
+>>> import nltk
+>>> nltk.download()
+Downloader> d
+  Identifier> all
+Downloader> d
+>>> exit()
+```
+4. Start the Jupyter Notebook server from the project root directory with 
 ```bash
 $ jupyter notebook
 ```
 This should open a new tab in the browser with the contents of the current directory. Open the `sentiment_analysis_of_tweets.ipynb` file to view the notebook for this project
 
-4. Shutdown the server with Ctrl + C in the terminal session you used to start it
+5. Shutdown the server with Ctrl + C in the terminal session you used to start it
