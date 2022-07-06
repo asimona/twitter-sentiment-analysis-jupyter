@@ -7,7 +7,7 @@ Cython==0.26
 decorator==4.1.2
 entrypoints==0.2.3
 gensim==2.3.0
-html5lib==0.9999999
+html5lib==0.999999999
 idna==2.6
 ipykernel==4.6.1
 ipython==6.1.0
